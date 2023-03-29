@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
   <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
     <div class="container">
         <a class="navbar-brand" href="#">DC</a>
@@ -52,17 +53,21 @@
         </div>
     </div>
   </nav>
+
+ 
   <!-- main banner -->
-  <section class="bgimage" id="home">
+  <section class="bgimage " id="home">
+    
     <div class="container-fluid">
         <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
             <h2 class="hero_title">Hi, it's me <br> Devansh Chowdhury</h2><br>
-            <h6>Ask me about </h6><br><p id="companionMethods"></p>
+            <h6>Ask me about </h6>
+            <p id="companionMethods"></p>   
         </div>
         </div>
     </div>
-</section>
+    </section>
   <!-- about section-->
   <section id="about">
     <div class="container mt-4 pt-4">
@@ -91,29 +96,49 @@
           <div class="col-lg-4 mt-4">
               <div class="card">
                   <!-- <img class="card-img-top" src="images/SkillsImage1.jpg" alt="Card image" style="width:100%"> -->
+                  
                   <div class="card-body">
+                    <a href = "https://www.kaggle.com/devanshchowdhury" class="no-style-no">
                       <h4 class="card-title">Kaggle Discussion Expert</h4>
                       <p class="card-text">Globally Ranked 1343/297,070</p>
+                      <br>
+                      <div class = 'icons'>
+                        <img src="./images/kaggle.png" alt="">
+                        <!-- <i class="fa-brands fa-kaggle fa-beat fa-lg"></i> -->
+                      </div>
+                    </a> 
                   </div>
+                  <br>
+                  <br>
+               
               </div>
           </div>
 
           <div class="col-lg-4 mt-4">
               <div class="card SkillsContent">
                   <!-- <img class="card-img-top" src="images/SkillsImage4.jpg" alt="Card image" style="width:100%"> -->
+                  <a href = "https://leetcode.com/devanshchowdhury007/" class = "no-style-no">
                   <div class="card-body">
                       <h4 class="card-title">LeetCode Knight</h4>
                        Rated 1955 ,top 5% and over 300+ solved problems on leetcode platform.
+                       <div class = 'icons'>
+                       <img src="./images/lc.PNG" alt="" class = 'icons'>
+                    </div>
                   </div>
+                </a>
               </div>
           </div>
 
           <div class="col-lg-4 mt-4">
               <div class="card SkillsContent">
+                    
                   <div class="card-body">
                       <h4 class="card-title">Kaggle Silver Medalist</h4>
                       Developed a system for Analyze argumentative writing elements in Essays. The solution got 46/2060 participants on Kaggle
                         platform.
+                        <div class = 'icons'>
+                            <img src="./images/silver.png" alt="" class = 'icons'>
+                         </div>
                   </div>
               </div>
           </div>
@@ -147,12 +172,18 @@
   <div class="container mt-3">
       <h1 class="text-center">Skills</h1>
       <div class="row">
-          <div class="col-lg-4 mt-4">
+          <div class="col-lg-5 mt-6">
               <div class="card">
                   <!-- <img class="card-img-top" src="images/SkillsImage1.jpg" alt="Card image" style="width:100%"> -->
-                  <div class="card-body">
+                  <div class="card-body icons">
+
                       <h4 class="card-title">Programming Languages & Tools</h4>
-                      <p class="card-text">Python C++ MySQL HTML/CSS</p>
+                      <!-- <p class="card-text"> |  |  | </p> -->
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Python</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>C++</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>MySQL</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>HTML&CSS</button>
+                      <br>
                       <i class="fa-brands fa-python fa-beat"></i>
                       <i class="fa-sharp fa-solid fa-c fa-beat"></i>
                       <!-- <i class="fab fa-cuttlefish">++</i> -->
@@ -168,16 +199,21 @@
               </div>
           </div>
 
-          <div class="col-lg-4 mt-4">
+          <div class="col-lg-7 mt-6">
               <div class="card SkillsContent">
                   <!-- <img class="card-img-top" src="images/SkillsImage4.jpg" alt="Card image" style="width:100%"> -->
-                  <div class="card-body">
+                  <div class="card-body icons">
                       <h4 class="card-title">Domain Knowledge</h4>
                       <i class="fa-light fa-microchip-ai"></i>
-                      Machine Learning 
-                      Deep Learning Data Analysis
-                      Data Structures & Algorithms Statistics
-                      Probability
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Machine Learning</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Deep Learning</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Data Analysis </button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Data Structures & Algorithms</button>
+                      <!-- <br> -->
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Statistics</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Probability</button>
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Machine Learning</button>
+                      
 
                       <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
                       <!-- <div class="text-center">
@@ -187,29 +223,35 @@
               </div>
           </div>
 
-          <div class="col-lg-4 mt-4">
-              <div class="card SkillsContent">
-                  <!-- <img class="card-img-top" src="images/SkillsImage3.jpg" alt="Card image" style="width:100%"> -->
-                  <div class="card-body">
-                      <h4 class="card-title">Libraries, Packages & Frameworks</h4>
-                      Pandas NumPy TensorFlow 
-PyTorch Hugging Face Tkinter
-                      <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div> -->
-                  </div>
-              </div>
-          </div>
+          
       </div>
       <br>
       <div class="row">
-          <div class="col-lg-6 mt-4">
+        <div class="col-lg-5 mt-4">
+            <div class="card SkillsContent">
+                <!-- <img class="card-img-top" src="images/SkillsImage3.jpg" alt="Card image" style="width:100%"> -->
+                <div class="card-body icons">
+                    <h4 class="card-title">Libraries, Packages & Frameworks</h4>
+                    <button type="button" class="btn btn-primary btn-sm" disabled>Pandas</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>NumPy</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>TensorFlow</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>PyTorch</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>Hugging</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>Face</button>
+<button type="button" class="btn btn-primary btn-sm" disabled>Tkinter</button>
+                </div>
+            </div>
+        </div>
+
+          <div class="col-lg-5 mt-4">
               <div class="card SkillsContent">
                   <!-- <img class="card-img-top" src="images/SkillsImage4.jpg" alt="Card image" style="width:100%"> -->
-                  <div class="card-body">
+                  <div class="card-body icons">
                       <h4 class="card-title">Visualization Tools and Others</h4>
-                      Power BI, Wandb, Plotly, Linux
+                      <button type="button" class="btn btn-primary btn-sm" disabled>Power BI</button>
+                        <button type="button" class="btn btn-primary btn-sm" disabled> Wandb</button>
+                        <button type="button" class="btn btn-primary btn-sm" disabled> Plotly</button>
+                        <button type="button" class="btn btn-primary btn-sm" disabled> Linux</button>
                       <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       <div class="text-center">
                           <a href="#" class="btn btn-success">Link</a> -->
@@ -218,32 +260,15 @@ PyTorch Hugging Face Tkinter
               </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-2 mt-4">
               <div class="card SkillsContent">
                   <!-- <img class="card-img-top" src="images/SkillsImage1.jpg" alt="Card image" style="width:100%"> -->
-                  <div class="card-body">
+                  <div class="card-body icons">
                       <h4 class="card-title">Database</h4>
-                      MYSQL
-                      <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div> -->
+                      <button type="button" class="btn btn-primary btn-sm" disabled>MYSQL</button>
                   </div>
               </div>
           </div>
-
-          <!-- <div class="col-lg-4 mt-4">
-              <div class="card SkillsContent">
-                  <img class="card-img-top" src="images/SkillsImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Blog App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div> -->
       </div>
 </section>
 
@@ -255,8 +280,10 @@ PyTorch Hugging Face Tkinter
             <div class="col-lg-6 mt-4">
                 <div class="card ProjectsText">
                     <div class="card-body">
-                        <i class="fas ProjectsIcon fa-clock"></i>
-                        <h4 class="card-title mt-3">SIGNATURE FORGERY DETECTION </h4>
+                        <i class='fas ProjectsIcon fa-search'></i>
+
+                        <h4 class="card-title mt-3"><a href = "https://github.com/Devanshchowdhury2212/Signature-Forgery-Detection-with-One-shot-Learning"
+                             class="no-style">SIGNATURE FORGERY DETECTION </a></h4>
                         <p class="card-text mt-3">This project made using Keras uses Convolutional Neural Networks and
                           Siamese Neural Networks to detect Forged signatures with an accuracy of 99%.The model was trained on the 
                           signatures of just 50 people and works for New Users without retraining the model.Created a highly scalable model capable of one-shot learning.</p>
@@ -268,8 +295,10 @@ PyTorch Hugging Face Tkinter
                 <div class="card ProjectsText">
                     <div class="card-body">
                         <i class='fas ProjectsIcon fa-layer-group'></i>
-                        <h4 class="card-title mt-3">Auxiliary Attention Pooling Network Based Recording
-                          Device Detection System</h4>
+                        
+                        <h4 class="card-title mt-3"><a href = "https://github.com/Devanshchowdhury2212/Auxiliary-Attention-Pooling-Network-Based-Recording-Device-Detection-System/tree/main/BTP/main"
+                             class="no-style">Auxiliary Attention Pooling Network Based Recording
+                            Device Detection System</a></h4>
                         <p class="card-text mt-3">The objective was to design a system/pipeline workflow that can accurately
                           identify the identity of the source microphone from the recorded audio sample.The model achieved 86.9% accuracy
                           beating the recent benchmarks by 3%(published in 2022).
@@ -281,9 +310,9 @@ PyTorch Hugging Face Tkinter
           <div class="row">  
             <div class="col-lg-4 mt-4">
                 <div class="card ProjectsText">
-                    <div class="card-body">
-                        <i class='far ProjectsIcon fa-check-circle'></i>
-                        <h4 class="card-title mt-3">INSTAGRAM WEB SCRAPER</h4>
+                    <div class="card-body icons">
+                        <i class="fa-solid fa-database"></i>
+                        <h4 class="card-title mt-3"><a href = "https://github.com/Devanshchowdhury2212/Instagram-Web-scraping-" class="no-style">INSTAGRAM WEB SCRAPER</a></h4>
                         <p class="card-text mt-3">The Instabot allows to Search For a Username and can mine any information
                           like a list of followers, following, posts, etc. The data scraped can be further used for detailed analysis. 
                           Used Selenium framework with Python and chrome web browser.
@@ -295,7 +324,7 @@ PyTorch Hugging Face Tkinter
                 <div class="card ProjectsText">
                     <div class="card-body">
                         <i class='fas ProjectsIcon fa-search'></i>
-                        <h4 class="card-title mt-3">IPL DATASET EDA INSIGHTS</h4>
+                        <h4 class="card-title mt-3"><a href="https://github.com/Devanshchowdhury2212/Ipl-EDA-Pyspark-" class="no-style">IPL DATASET EDA INSIGHTS</a></h4>
                         <p class="card-text mt-3">Exploratory Data Analysis on IPL dataset using Pyspark to retrieve data for multiple queries.
                           Gain Insights on how toss influences the result of the game and present it in an interactive diagram.
                         </p>
@@ -306,8 +335,9 @@ PyTorch Hugging Face Tkinter
             <div class="col-lg-4 mt-4">
                 <div class="card ProjectsText">
                     <div class="card-body">
-                        <i class='fas ProjectsIcon fa-shield-alt'></i>
-                        <h4 class="card-title mt-3"> Power-BI Dashboard </h4>
+                        <i class="fas ProjectsIcon fa-shield-alt"></i>
+                        <h4 class="card-title mt-3"> 
+                        <a href="https://github.com/Devanshchowdhury2212/Sales-Analysis-using-Power-BI-" class="no-style">Power-BI Dashboard</a> </h4>
                         <p class="card-text mt-3">Created an Visually Attractive and Interactive Dashboard for Sales Analysis using Power BI Tool.
                           Answer any query related to the database on the go. Demo video attached to the Github.
                         </p>
@@ -354,7 +384,7 @@ PyTorch Hugging Face Tkinter
 
           <div class="col-lg-6">
               <!-- form fields -->
-              <form>
+              <form action="mailto:someone@example.com" method="post">
                   <input type="text" class="form-control form-control-lg" placeholder="Name">
                   <input type="email" class="form-control mt-3" placeholder="Email">
                   <input type="text" class="form-control mt-3" placeholder="Subject">
